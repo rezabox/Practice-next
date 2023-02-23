@@ -3,10 +3,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 10rem;
   min-height: 100vh;
 }
-
+.h1{
+  padding: 50px;
+  color: red;
+  font-size: 50px;
+}
+.ul{
+  font-size: 50px;
+}
 .description {
   display: inherit;
   justify-content: inherit;
