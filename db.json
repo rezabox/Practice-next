@@ -1,4 +1,30 @@
 {
+  "news": [
+     {
+       "id": 1,
+        "title": "News Article 1",
+        "description": "reza 1",
+        "category": "sports"    
+     },
+     {
+      "id": 2,
+       "title": "News Car 1",
+       "description": "Description 2",
+       "category": "car"    
+    },
+    {
+      "id": 3,
+       "title": "News Machins 1",
+       "description": "Description 3",
+       "category": "machin"    
+    },
+    {
+       "id": 4,
+       "title": "New Caller",
+       "description": "FC barslon",
+       "category":"minform"
+    }
+  ],
   "products": [
      {
         "id": 1,
@@ -15,7 +41,7 @@
      {
       "id": 3,
       "title": "Product 3",
-      "price": 3250,
+      "price": 4500,
       "description": "Description 3"
      },
      {

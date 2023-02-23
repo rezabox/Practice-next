@@ -12,6 +12,9 @@ function Home(){
     <Link href='/posts'>Go To Post</Link>
     <br />
     <Link href='/products'>Go To products</Link>
+    <br />
+    <Link href='/news'>go to news</Link>
+
    </ul>
   </> 
   )
