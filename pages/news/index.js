@@ -11,6 +11,7 @@ export default function NewArticleList({ articles }) {
               <h2>
                 {article.description} {article.title}
               </h2>
+              {/* </Link> */}
             <hr />
           </div>
         );

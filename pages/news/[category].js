@@ -11,12 +11,13 @@ export default function ArticleListByCategory({ articles , category }){
            )
       })}
       </>
-      
    )
 }
 
 export async function getServerSideProps(context) {
-    const { params } = context;
+    const { params, req, res } = context;
+    console.log(req.headers.cookie);
+    res.setHeader('Set-Cookie', ['name=YektaCookie']);
     const { category } = params
     const responsive = await fetch(`http://localhost:4000/news?category=${category}`);
     const data = await responsive.json();
