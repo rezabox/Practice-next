@@ -1,0 +1,13 @@
+.layout-header{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.layout-footer{
+  color: green;
+  font-size: 30px;
+  text-align: center;
+}
+h1{
+  color: blue;
+}
